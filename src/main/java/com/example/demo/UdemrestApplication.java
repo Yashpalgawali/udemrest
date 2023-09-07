@@ -1,11 +1,11 @@
 package com.example.demo;
 
-import java.sql.SQLSyntaxErrorException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
+//import java.sql.SQLSyntaxErrorException;
+//import java.util.Arrays;
+//import java.util.List;
+//import java.util.Optional;
+//import java.util.function.Predicate;
+//import java.util.stream.Stream;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -18,6 +18,7 @@ public class UdemrestApplication implements CommandLineRunner {
 		SpringApplication.run(UdemrestApplication.class, args);
 	}
 
+	
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
