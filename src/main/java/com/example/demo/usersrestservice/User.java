@@ -2,12 +2,16 @@ package com.example.demo.usersrestservice;
 
 import java.time.LocalDate;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class User {
 
 	private Integer id ;
 	
+	@JsonProperty("user_name")
 	private String name;
 	
+	@JsonProperty("birth_date")
 	private LocalDate birthDate;
 
 	public Integer getId() {
