@@ -2,10 +2,17 @@ package com.example.demo.usersrestservice;
 
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+@Entity(name = "user_details")
 public class User {
 
+	@Id
+	@GeneratedValue
 	private Integer id ;
 	
 	@JsonProperty("user_name")

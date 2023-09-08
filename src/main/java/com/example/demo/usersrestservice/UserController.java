@@ -33,8 +33,7 @@ public class UserController {
 	}
 	
 	@GetMapping("/users")
-	public List<User> getAllUsers()
-	{
+	public List<User> getAllUsers() {
 		return userdao.findAll();
 	}
 	

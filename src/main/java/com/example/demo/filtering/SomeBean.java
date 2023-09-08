@@ -1,12 +1,14 @@
 package com.example.demo.filtering;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+@JsonFilter(value = "someBeanFilter") // This is used for Dynamic Filtering
 public class SomeBean {
 
 	private String field1;
 	
-	@JsonIgnore
+//	@JsonIgnore		// This is used for Static Filtering "@JsonIgnore,@JsonIgnoreProperties"
 	private String field2;
 	
 	private String field3;

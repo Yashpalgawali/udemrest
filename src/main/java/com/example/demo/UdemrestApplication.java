@@ -22,7 +22,8 @@ public class UdemrestApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-			//printnums(Arrays.asList(1,5,4,78,98,654,47));
+		
+		//printnums(Arrays.asList(1,5,4,78,98,654,47));
 		
 //		List<String> flist = Arrays.asList("Banana","Mango","Guava","Berry");
 //		Stream<String> fstr = flist.stream();
